@@ -21,3 +21,5 @@ function filter(arr, fn) {
   }
     return newArray;
 }
+
+// Bonus credit! Can you invoke the filter function and immediately log the result using a single line of code and arrow functions?

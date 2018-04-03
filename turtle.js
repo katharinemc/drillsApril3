@@ -11,4 +11,10 @@ function totalSteps(array) {
   return resultArray;
 }
 
+function stepStatement(arr) {
+    arr.forEach(function (steps))
+        
+    }
+}
+
 console.log(totalSteps(noBackSteps(turtleArray)));
