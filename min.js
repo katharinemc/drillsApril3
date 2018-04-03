@@ -12,6 +12,6 @@ function minNum(numbers) {
     i++;
   }
   return min;
-};
+}
 
 console.log(minNum([-5, 28, 98, -20013, 0.7878, 22, 115]));
