@@ -11,4 +11,12 @@ function totalSteps(array) {
   return resultArray;
 }
 
-console.log(totalSteps(noBackSteps(turtleArray)));
+console.log(stepsInEachCase(totalSteps(noBackSteps(turtleArray))));
+/*Use the forEach method to log out how many steps the turtle took in each case.*/
+function stepsInEachCase(array) {
+
+  array.forEach(function(x){
+    console.log(`The turtle took ${x} steps.`);
+  }
+  );
+}
