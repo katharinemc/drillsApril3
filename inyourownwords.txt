@@ -1,3 +1,12 @@
 What is scope?
 
 Katharine: Scope is the area where a variable lives and can be accessed.  If a variable is declared within a function, it has local scope and can be used or returned in that function.  Functions will look for variables within themselves, and then look farther up in the code until it finds the appropriate variable.  Global variables are defined outside of any particular function and can be accessed by all functions. This creates myriad problems including having a global and local variable with the same name, which is confusing, and/or side effects where a function unexpectedly changes the value of a global function.
+
+Explain JavaScript's strict mode.
+
+Stef: Strict mode requires you to be explicit and precise in your syntax so that
+your code is easier to read and collaborate on.
+
+What are side effects, and what is a pure function?
+
+Katharine: 
