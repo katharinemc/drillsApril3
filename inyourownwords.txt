@@ -9,4 +9,4 @@ your code is easier to read and collaborate on.
 
 What are side effects, and what is a pure function?
 
-Katharine: 
+Katharine: When Function B that occurs later in code, relies on a variable that was unexpectedly changed by Function A.  This occurs most frequently with global variable.  A pure function wouldn’t have side effects, and contains the variables that it needs.
