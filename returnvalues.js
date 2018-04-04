@@ -2,6 +2,8 @@
 
 function hazardWarningCreator(typeOfWarning) {
   let warningCounter = 0;
+ 
+  //Why does JS not mind that nothing is passed to this function? Is it because the function returns, but isn't run?
   return function(location){
     warningCounter++;
     console.log(`DANGER! There is a ${typeOfWarning} hazard at ${location}!`);
